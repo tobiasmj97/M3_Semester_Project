@@ -1,6 +1,56 @@
 {
     "intents": [
         {
+            "tag": "hilsen",
+            "patterns": [
+                "Hej",
+                "Halløj",
+                "Goddag",
+                "God dag"
+            ],
+            "responses": [
+                "Hej 😊",
+                "Hej, hvad kan jeg hjælpe med?",
+                "Hej, hvordan kan jeg hjælpe?"
+            ]
+        },
+        {
+            "tag": "svar",
+            "patterns": [
+                "Går det godt?"
+            ],
+            "responses": [
+                "Det går godt. Hvad med dig?"
+            ]
+        },
+        {
+            "tag": "farvel",
+            "patterns": [
+                "Farvel",
+                "Vi ses senere",
+                "Farvel"
+            ],
+            "responses": [
+                "Vi ses senere, tak for besøget",
+                "Hav en god dag",
+                "Farvel! Kom tilbage snart."
+            ]
+        },
+        {
+            "tag": "tak",
+            "patterns": [
+                "Tak",
+                "Tak skal du have",
+                "Tak for hjælpen",
+                "Mange tak!"
+            ],
+            "responses": [
+                "Glad for at kunne hjælpe!",
+                "Altid klar til at hjælpe!",
+                "Det var en fornøjelse"
+            ]
+        },
+        {
             "tag": "Bestilling i butik",
             "patterns": [
                 "Jeg vil gerne bestille en vare til hjemmelevering",
