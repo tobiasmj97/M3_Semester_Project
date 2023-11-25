@@ -1,0 +1,232 @@
+{
+  "intents": [
+      {
+          "tag": "Bestilling af vare i butik",
+          "patterns": [
+              "Jeg vil gerne bestille en vare til hjemmelevering",
+              "Kan jeg bestille produkter til levering?",
+              "Hvordan bestiller jeg varer til levering?",
+              "Bestilling af vare til hjemmelevering",
+              "Hvordan bestiller jeg produkter fra butikken?"
+          ],
+          "responses": [
+              "Når du har bestilt produkter i butikken til hjemmelevering, skal du være opmærksom på følgende:\n Så snart bestillingen er blevet gennemført i butikken, vil du både få en fysisk kvittering samt en kopi pr. e-mail. Herefter vil ordren blive pakket på vores lager og du vil efter afsendelse af ordren modtage et link på mail til trackingen af din ordre. Denne e-mail har GLS som afsender.\nSom udgangspunkt vil du modtage din bestilling inden for 2-5 hverdage på den adresse, som du oplyste ved bestilling. Inden levering af pakken vil du også få mulighed for at ændre levering til en pakkeshop. Dette sker gennem den e-mail/SMS, du modtager fra GLS."
+          ]
+      },
+      {
+          "tag": "Ordrebekræftelse ikke modtaget",
+          "patterns": [
+              "Jeg har ikke modtaget min ordrebekræftelse",
+              "Hvor er min ordrebekræftelse?",
+              "Ordrebekræftelse ikke modtaget",
+              "Jeg venter stadig på min ordrebekræftelse"
+          ],
+          "responses": [
+              "Når din bestilling er blevet korrekt gennemført, vil du modtage en ordrebekræftelse per e-mail. Denne kommer normalt indenfor få minutter efter, at du har afgivet ordren, men det kan også tage lidt længere tid. Hvis du ikke har modtaget en ordrebekræftelse, kan det skyldes en af følgende årsager: \n- Din ordre er muligvis ikke blevet gennemført korrekt, og der er derfor ikke blevet oprettet en ordre\n- Du kan fejlagtigt have lavet en stavefejl, da du indtastede e-mailadressen\n- E-mailen er blevet sendt, men er endt i ønskede mail/spam\n- E-mailen er endnu ikke blevet sendt fra vores servere, grundet en teknisk forsinkelse (dette sker normalt kun i Black Week og i julen)\nKan du stadig ikke finde din ordrebekræftelse? Vores kundeservice vil hjertens gerne hjælpe dig!"
+          ]
+      },
+      {
+          "tag": "Annullering af ordre",
+          "patterns": [
+              "Jeg vil gerne annullere min ordre",
+              "Hvordan annullerer jeg min ordre?",
+              "Annullering af ordre",
+              "Kan jeg afbestille min ordre?"
+          ],
+          "responses": [
+              "Ønsker du at annullere din ordre, skal du straks kontakte vores kundeservice.\n\nOBS: Hvis du sender os en mail, skal denne markeres i emnefeltet med 'Annullering af DK123456' - så kan vi hurtigst muligt hjælpe dig.\n\nVi pakker ordrer mandag-fredag, og oftest er din ordre pakket indenfor 10-30 minutter efter bestilling.\n\nSåfremt din ordre allerede er pakket, kan den ikke annulleres. Er dette tilfældet, kan du blot gøre brug af vores 100 dages returret.\n\nØnsker du yderligere information om returnering og ombytning, så tryk på knappen herunder:"
+          ]
+      },
+      {
+          "tag": "Ændring af ordre",
+          "patterns": [
+              "Jeg vil ændre min ordre",
+              "Kan jeg ændre min ordre?",
+              "Ændring af ordre",
+              "Hvordan ændrer jeg min ordre?"
+          ],
+          "responses": [
+              "Hvis du har bestilt et forkert produkt eller en forkert størrelse, så bedes du tage kontakt til kundeservice hurtigst muligt.\n\nPå nuværende tidspunkt har vi ikke mulighed for at ændre i din ordre, men såfremt din ordre endnu ikke er pakket, er der en chance for, at vi kan nå at annullere den. Vi vil derfor bede dig tage kontakt til os hurtigst muligt. Kundeservice er tilgængelig hverdage 10:00-17:00 samt søndage 10:00-16:00.\n\nSkulle din pakke allerede være blevet klargjort, kan vi desværre ikke annullere ordren. Fortvivl ej, du har 100 dages returret og vi tilbyder gratis ombytning.\n\nØnsker du yderligere information omkring returnering og ombytning, så tryk på knappen herunder:"
+          ]
+      },
+      {
+          "tag": "Defekt produkt modtaget",
+          "patterns": [
+              "Jeg har modtaget et defekt produkt",
+              "Hvad gør jeg med et defekt produkt?",
+              "Defekt produkt modtaget",
+              "Mit produkt er beskadiget"
+          ],
+          "responses": [
+              "Vi bestræber os på at levere langtidsholdbare produkter af høj kvalitet. Alle vores produkter gennemgår en nøje kvalitetskontrol. Derudover gør vi vores bedste for at kontrollere kvaliteten af alle produkter, før vi sender dem til dig. Der kan dog forekomme fejl.\n\nHvis du modtager et defekt produkt, bedes du straks kontakte vores kundeservice.\n\nFor at vi kan løse din sag på bedste og hurtigste vis, vil vi bede dig om at sende os følgende oplysninger: \n\n- Ordrenummer\n- Navnet på det defekte produkt\n- Et billede af det defekte produkt\n\nSå snart vi har modtaget din e-mail, vil vi gøre vores bedste for at vende tilbage til dig så hurtigt som muligt."
+          ]
+      },
+      {
+          "tag": "Forkert produkt modtaget",
+          "patterns": [
+              "Jeg har modtaget det forkerte produkt",
+              "Fejlagtigt produkt modtaget",
+              "Hvad gør jeg hvis jeg har fået det forkerte produkt?",
+              "Forkert produkt modtaget"
+          ],
+          "responses": [
+              "Vi gør vores bedste for at sende de bestilte produkter, men skulle du have modtaget et forkert produkt, bedes du venligst tage kontakt til vores kundeservice.\n\nFor at løse dette på nemmeste og hurtigste vis, vil vi bede dig sende os følgende informationer:\n\n- Ordrenummer\n- Navnet på produktet som du ikke modtog\n- Navnet på produktet som du fejlagtigt modtog\n- Et billede af produktet samt mærket\n\nSå snart vi har modtaget din mail, vender vi tilbage til dig hurtigst muligt."
+          ]
+      },
+      {
+          "tag": "Manglende produkter i min ordre",
+          "patterns": [
+              "Jeg mangler et produkt i min ordre",
+              "Hvad gør jeg hvis der mangler et produkt?",
+              "Manglende produkt i min ordre",
+              "Et produkt i min ordre er ikke blevet leveret"
+          ],
+          "responses": [
+              "Vi gør vores bedste for at sende de bestilte produkter!\n\nSkulle du dog være så uheldig, at et produkt fra din ordre ikke blev leveret, bedes du venligst tage kontakt til vores kundeservice.\n\nFor at løse dette på nemmeste og hurtigste vis, vil vi bede dig sende os følgende informationer:\n\n- Ordrenummer\n- Navnet på produktet som du ikke modtog\n- Et billede af kasse som ordren blev sendt i\n\nSå snart vi har modtaget din mail, vender vi tilbage til dig hurtigst muligt."
+          ]
+      },
+      {
+          "tag": "Leveringsinformationer",
+          "patterns": [
+              "Jeg vil gerne vide mere om levering",
+              "Hvad er leveringstiden?",
+              "Leveringsinformationer",
+              "Kan jeg få oplysninger om levering?"
+          ],
+          "responses": [
+              "Nedenfor finder du en oversigt over de lande, som vi sender til. Herunder fremgår hvilke fragtfirmaer vi benytter os af, hvornår det seneste bestillingstidspunkt er, hvis pakken skal nå at blive sendt samme dag samt den forventede leveringstid.\n\n🇩🇰 Danmark\nStandard fragtfirma: GLS pakkeshop\nBestil senest: 18:00\nForventet leveringstid: 5 hverdage\nPris: 0 DKK\n\nGratis returnering: Ja (Ved brug af vores returportal)\n\nØnsker du at læse mere om levering til Danmark, så klik på knappen herunder:"
+          ]
+      },
+      {
+          "tag": "Leveringsmuligheder",
+          "patterns": [
+              "Hvordan kan jeg få mine varer leveret?",
+              "Hvilke leveringsmuligheder har jeg?",
+              "Leveringsmuligheder",
+              "Kan jeg vælge leveringsmetode?"
+          ],
+          "responses": [
+              "Vi sender alle danske ordrer med GLS. Ønsker man levering indenfor 1-2 hverdage, så kan man tilkøbe DHL Express.\n\nDu har følgende muligheder hvad angår levering:\n- GLS Pakkeshop\n- GLS Erhverv\n- GLS Privatlevering\n- DHL Express\n\nØnsker du at læse mere om levering og hvilke lande, vi sender til, så klik på knappen nedenfor:"
+          ]
+      },
+      {
+          "tag": "Spor min ordre",
+          "patterns": [
+              "Hvordan sporer jeg min ordre?",
+              "Kan jeg få sporingsoplysninger for min ordre?",
+              "Spor min ordre",
+              "Hvordan følger jeg min ordre?"
+          ],
+          "responses": [
+              "Når du har afgivet din ordre, modtager du først en ordrebekræftelse på mail. Denne ordrebekræftelse betyder, at vi har modtaget din ordre og den indeholder alle oplysninger vedrørende dit køb.\n\nNår din ordre er blevet pakket og har forladt vores lager, vil du modtage en forsendelsesbekræftelse. Forsendelsesbekræftelsen indeholder alle relevante oplysninger om leveringen af din ordre samt sporingsoplysninger."
+          ]
+      },
+      {
+          "tag": "Levering i weekenden",
+          "patterns": [
+              "Kan jeg få levering i weekenden?",
+              "Hvordan fungerer levering i weekenden?",
+              "Levering i weekenden",
+              "Afsendelse i weekenden"
+          ],
+          "responses": [
+              "Vi afsender alle ordrer til Danmark med GLS, der leverer alle hverdage samt lørdage til pakkeshops, som har lørdagsåbent. Leveringstiden er 2-5 hverdage.\n\nHvis du bestiller inden kl. 14.00 på en fredag, vil din pakke blive afsendt samme dag, og ligeledes være i transit henover weekenden.\n\nLægger du en ordre i weekenden, vil den blive afsendt om mandagen.\n\nVær opmærksom på, at du modtager en SMS, når din pakke er klar til afhentning, såfremt du har valgt levering med GLS pakkeshop. Afhentning kan foregå i pakkeshoppens åbningstid, som den givne pakkeshop selv definerer.\n\nDu kan finde information om din valgte pakkeshop her:"
+          ]
+      },
+      {
+          "tag": "Afhentning i butik",
+          "patterns": [
+              "Kan jeg afhente min ordre i butik?",
+              "Hvordan fungerer afhentning i butik?",
+              "Afhentning i butik",
+              "Er det muligt at hente en ordre i butik?"
+          ],
+          "responses": [
+              "På nuværende tidspunkt er det ikke muligt at afhente en online ordre i en af vores fysiske butikker.\n\nHvis du ønsker at lave en bestilling på vores hjemmeside, så vil denne, alt efter den valgte forsendelsesmetode, blive sendt til din privatadresse, firmaadresse eller til den nærmeste pakkeshop.\n\nVi kan ikke garantere, at alle produkter vil være tilgængelige i butikkerne, men søger du efter en bestemt vare, skal du være velkommen til at kigge forbi en af vores butikker eller tage kontakt til vores kundeservice.\n\nVores åbningstider for butikkerne samt kontaktinformationer for kundeservice finder du under knapperne nedenfor:"
+          ]
+      },
+      {
+          "tag": "Told- og importgebyr",
+          "patterns": [
+              "Skal jeg betale toldgebyrer?",
+              "Er der importgebyrer?",
+              "Told- og importgebyr",
+              "Hvordan håndteres toldomkostninger?"
+          ],
+          "responses": [
+              "Når du handler hos Shaping New Tomorrow, skal du ikke bekymre dig om ekstra omkostninger. Vi tilbyder gratis standardforsendelse og gratis returnering. Vi tager os også af eventuelle told- og importgebyrer.\n\nSkulle du af en eller anden grund modtage en opkrævning, bedes du kontakte vores kundeservice, som vil tage et kig på sagen."
+          ]
+      },
+      {
+          "tag": "Returnering og ombytning",
+          "patterns": [
+              "Hvordan fungerer returnering?",
+              "Kan jeg returnere mine varer?",
+              "Returnering og ombytning",
+              "Er der mulighed for ombytning?"
+          ],
+          "responses": [
+              "Find dit land på listen nedenfor og se yderligere information vedrørende returnering og ombytning:\n🇩🇰 Danmark\nVi tilbyder gratis returnering fra Danmark."
+          ]
+      },
+      {
+          "tag": "Gavekort",
+          "patterns": [
+              "Hvad skal jeg gøre, hvis jeg har problemer med mit gavekort?",
+              "Jeg har problemer med gavekort",
+              "Hvordan køber jeg et gavekort?"
+          ],
+          "responses": [
+              "Køb af online gavekort\nNår du modtager et online gavekort, modtager du det via mail. Gavekortet bliver ikke sendt fysisk.\n\nDesuden har du mulighed for at skrive en lille hilsen til modtageren. Denne vil blive vist i mailen med gavekortet, som kan printes ud og/eller videresendes pr. mail til modtageren.\n\nKøb af gavekort i butik\nNår du køber et gavekort i en af vores butikker, modtager du en kvittering med en gavekortskode og en online-version via mail.\n\nIndløsning af online gavekort\nAlle gavekort kan indløses på vores website. Hvis du vil bruge dit gavekort online, skal du blot indtaste gavekortkoden i feltet for gavekort/rabatkode ved kassen. \nHvis du ikke bruger det fulde beløb, forbliver gavekortet tilgængeligt, indtil du har brugt det fulde beløb. \nHvis du ønsker at returnere noget fra en ordre, der er betalt med et gavekort, refunderes pengene til det samme gavekort. Gavekortet kan derefter bruges igen.\nIndløsning af et gavekort i fysiske butikker\nAlle gavekort kan indløses i vores fysiske butikker.\n\nHvis du ikke bruger det fulde beløb på gavekortet, vil der blive udstedt et nyt gavekort."
+          ]
+      },
+      {
+          "tag": "Betalingsmuligheder",
+          "patterns": [
+              "Hvilke betalingsmetoder accepterer I?",
+              "Kan jeg betale med kreditkort/debetkort?",
+              "Tager I imod mobilbetalinger som Apple Pay eller Google Pay?"
+          ],
+          "responses": [
+              "Hos Shaping New Tomorrow ønsker vi at gøre det nemt og trygt for dig at handle.\n\nDu kan bruge følgende betalingsmidler hos os:\n\nVisa (alle typer Visa betalingskort)\nMastercard (alle typer Mastercard betalingskort)\nKlarna\nMobilepay\nAnyday"
+          ]
+      },
+      {
+          "tag": "Sådan indtaster du din rabatkode eller dit gavekort",
+          "patterns": [
+              "Hvordan indtaster jeg rabatkode?",
+              "Hvordan indtaster jeg gavekort?",
+              "Hvordan indløser jeg rabatkode?",
+              "Hvordan indløser jeg gavekort?",
+              "Hvordan bruger jeg en rabatkode",
+              "Hvordan bruger jeg et gavekort"
+          ],
+          "responses": [
+              "Rabatkoder og gavekort indtastes i samme felt. Følg de få trin herunder for at finde feltet:\n\n1. Når du har valgt det ønskede produkt, trykker du på indkøbskurven øverst i højre hjørne\n2. Acceptér så handelsbetingelserne og tryk 'Gå til betaling'\n3. Herefter kommer du til siden 'Oplysninger', hvor du skal klikke på 'Vis ordreoversigt'\n4. Du kan nu indtaste dit gavekort eller din rabatkode i feltet\n\nHvis du er i besiddelse af et fysisk gavekort i form af et kreditkort, kan du bruge dette online og i de danske butikker ved at indtaste cifrene undtagen de første fem.\n\nBemærk venligst: Det ikke er muligt at tilføje en rabatkode til en ordre, hvis man bestiller noget, der i forvejen er nedsat (sæt- eller kvantumrabat)."
+          ]
+      },
+      {
+          "tag": "Kan jeg få besked, når en udsolgt vare kommer på lager igen?",
+          "patterns": [
+              "Kan jeg få besked, når en udsolgt vare kommer på lager igen?",
+              "Jeg vil gerne have besked om lagerstatus på en vare",
+              "Hvordan får jeg besked på udsolgte vare der kommer på lager igen?"
+          ],
+          "responses": [
+              "Du kan skrive dig op til at få besked via SMS, email eller begge dele.\n\nDet gør du på følgende måde:\n\n1. Gå ind på vores hjemmeside og find det udsolgte produkt, som du ønsker at modtage en notifikation om\n2. Vælg den ønskede størrelse\n3. Du vil nu få mulighed for at indtaste dit telefonnummer og/eller din email ved at scrolle ned på siden\n4. Indtast dit telefonnummer eller din e-mail og tryk på henholdsvis SEND SMS eller SEND E-MAIL"
+          ]
+      },
+      {
+          "tag": "Hvor kan man købe produkter fra Shaping New Tomorrow?",
+          "patterns": [
+              "Hvor kan man købe produkter fra Shaping New Tomorrow?",
+              "Hvor kan jeg købe Shaping New Tomorrow produkter?",
+              "Hvordan kan jeg finde Shaping New Tomorrow produkter til salg?",
+              "Kan jeg købe Shaping New Tomorrow tøj online?"
+          ],
+          "responses": [
+              "Man kan udelukkende købe vores produkter i vores egne butikker i Danmark og Tyskland eller på vores hjemmeside http://shapingnewtomorrow.dk/\n\nTip: Der er desværre en del falske hjemmesider i omløb, der påstår at sælge Shaping New Tomorrow produkter. For at undgå ærgerlige og skuffende oplevelser kan du med fordel downloade browserudvidelsen 'Sikker shopping' til Google Chrome, som E-mærket har udviklet i samarbejde med Trygfonden.\n\n Installerer du denne app, så fortæller appen dig, hvis du er inde på en hjemmeside, der ikke er sikker og hvor du har stor sandsynlighed for enten at ende op med en kopivare eller, i værste fald, med at miste dine penge."
+          ]
+      }
+  ]
+}
