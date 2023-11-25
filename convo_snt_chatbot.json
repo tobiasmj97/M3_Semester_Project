@@ -1,16 +1,36 @@
 {
     "intents": [
         {
-            "tag": "Bestilling af vare i butik",
+            "tag": "Bestilling i butik",
             "patterns": [
                 "Jeg vil gerne bestille en vare til hjemmelevering",
                 "Kan jeg bestille produkter til levering?",
                 "Hvordan bestiller jeg varer til levering?",
-                "Bestilling af vare til hjemmelevering",
-                "Hvordan bestiller jeg produkter fra butikken?"
+                "Hvordan bestiller jeg produkter fra butikken?",
+                "Bestilling af vare til hjemmelevering"
             ],
             "responses": [
-                "Når du har bestilt produkter i butikken til hjemmelevering, skal du være opmærksom på følgende:\n Så snart bestillingen er blevet gennemført i butikken, vil du både få en fysisk kvittering samt en kopi pr. e-mail. Herefter vil ordren blive pakket på vores lager og du vil efter afsendelse af ordren modtage et link på mail til trackingen af din ordre. Denne e-mail har GLS som afsender.\nSom udgangspunkt vil du modtage din bestilling inden for 2-5 hverdage på den adresse, som du oplyste ved bestilling. Inden levering af pakken vil du også få mulighed for at ændre levering til en pakkeshop. Dette sker gennem den e-mail/SMS, du modtager fra GLS."
+                "Når du har bestilt produkter i butikken til hjemmelevering, skal du være opmærksom på følgende:\n Så snart bestillingen er blevet gennemført i butikken, vil du både få en fysisk kvittering samt en kopi pr. e-mail. Herefter vil ordren blive pakket på vores lager og du vil efter afsendelse af ordren modtage et link på mail til trackingen af din ordre. Denne e-mail har GLS som afsender."
+            ]
+        },
+        {
+            "tag": "Leveringstid bestilling butik",
+            "patterns": [
+                "Hvor lang leveringstid er der ved køb i butikken?"
+            ],
+            "responses": [
+                "Som udgangspunkt vil du modtage din bestilling inden for 2-5 hverdage på den adresse, som du oplyste ved bestilling. Inden levering af pakken vil du også få mulighed for at ændre levering til en pakkeshop. Dette sker gennem den e-mail/SMS, du modtager fra GLS."
+            ]
+        },
+        {
+            "tag": "Returnering af bestilling fra butik",
+            "patterns": [
+                "Returnering fra fysisk butik",
+                "Returnere ordre fra butik",
+                "Hvordan returnerer jeg en butikskøbt ordre?"
+            ],
+            "responses": [
+                "Når du afgiver en ordre i en af vores fysiske butikker i Danmark, som bliver sendt hjem til dig, har du mulighed for at returnere den både i butikken samt online via returportalen online.\n\nFor at gøre dette skal du indtaste det ordrenummer (f.eks. 184095.0), som du finder på følgesedlen, samt din e-mailadresse i returportalen. Når du har registreret din returnering, modtager du en returlabel, som du kan bruge til returneringen af din ordre.\n\nHvis du ønsker at ombytte din ordre, skal du returnere den og foretage en ny bestilling. Beløbet for returneringen vil blive refunderet, så snart vi har modtaget og behandlet din returnering."
             ]
         },
         {
@@ -18,7 +38,7 @@
             "patterns": [
                 "Jeg har ikke modtaget min ordrebekræftelse",
                 "Hvor er min ordrebekræftelse?",
-                "Ordrebekræftelse ikke modtaget",
+                "Ordrebekræftelse ikke modtaget efter bestilling",
                 "Jeg venter stadig på min ordrebekræftelse"
             ],
             "responses": [
@@ -34,7 +54,7 @@
                 "Kan jeg afbestille min ordre?"
             ],
             "responses": [
-                "Ønsker du at annullere din ordre, skal du straks kontakte vores kundeservice.\n\nOBS: Hvis du sender os en mail, skal denne markeres i emnefeltet med 'Annullering af DK123456' - så kan vi hurtigst muligt hjælpe dig.\n\nVi pakker ordrer mandag-fredag, og oftest er din ordre pakket indenfor 10-30 minutter efter bestilling.\n\nSåfremt din ordre allerede er pakket, kan den ikke annulleres. Er dette tilfældet, kan du blot gøre brug af vores 100 dages returret.\n\nØnsker du yderligere information om returnering og ombytning, så tryk på knappen herunder:"
+                "Ønsker du at annullere din ordre, skal du straks kontakte vores kundeservice.\nOBS: Hvis du sender os en mail, skal denne markeres i emnefeltet med 'Annullering af DK123456' - så kan vi hurtigst muligt hjælpe dig.\nVi pakker ordrer mandag-fredag, og oftest er din ordre pakket indenfor 10-30 minutter efter bestilling.\nSåfremt din ordre allerede er pakket, kan den ikke annulleres. Er dette tilfældet, kan du blot gøre brug af vores 100 dages returret.\nØnsker du yderligere information om returnering og ombytning, så tryk på knappen herunder:"
             ]
         },
         {
@@ -46,7 +66,7 @@
                 "Hvordan ændrer jeg min ordre?"
             ],
             "responses": [
-                "Hvis du har bestilt et forkert produkt eller en forkert størrelse, så bedes du tage kontakt til kundeservice hurtigst muligt.\n\nPå nuværende tidspunkt har vi ikke mulighed for at ændre i din ordre, men såfremt din ordre endnu ikke er pakket, er der en chance for, at vi kan nå at annullere den. Vi vil derfor bede dig tage kontakt til os hurtigst muligt. Kundeservice er tilgængelig hverdage 10:00-17:00 samt søndage 10:00-16:00.\n\nSkulle din pakke allerede være blevet klargjort, kan vi desværre ikke annullere ordren. Fortvivl ej, du har 100 dages returret og vi tilbyder gratis ombytning.\n\nØnsker du yderligere information omkring returnering og ombytning, så tryk på knappen herunder:"
+                "Hvis du har bestilt et forkert produkt eller en forkert størrelse, så bedes du tage kontakt til kundeservice hurtigst muligt.\nPå nuværende tidspunkt har vi ikke mulighed for at ændre i din ordre, men såfremt din ordre endnu ikke er pakket, er der en chance for, at vi kan nå at annullere den. Vi vil derfor bede dig tage kontakt til os hurtigst muligt. Kundeservice er tilgængelig hverdage 10:00-17:00 samt søndage 10:00-16:00.\nSkulle din pakke allerede være blevet klargjort, kan vi desværre ikke annullere ordren. Fortvivl ej, du har 100 dages returret og vi tilbyder gratis ombytning.\nØnsker du yderligere information omkring returnering og ombytning, så tryk på knappen herunder:"
             ]
         },
         {
@@ -94,7 +114,7 @@
                 "Kan jeg få oplysninger om levering?"
             ],
             "responses": [
-                "Nedenfor finder du en oversigt over de lande, som vi sender til. Herunder fremgår hvilke fragtfirmaer vi benytter os af, hvornår det seneste bestillingstidspunkt er, hvis pakken skal nå at blive sendt samme dag samt den forventede leveringstid.\n\n🇩🇰 Danmark\nStandard fragtfirma: GLS pakkeshop\nBestil senest: 18:00\nForventet leveringstid: 5 hverdage\nPris: 0 DKK\n\nGratis returnering: Ja (Ved brug af vores returportal)\n\nØnsker du at læse mere om levering til Danmark, så klik på knappen herunder:"
+                "Nedenfor finder du en oversigt over de lande, som vi sender til. Herunder fremgår hvilke fragtfirmaer vi benytter os af, hvornår det seneste bestillingstidspunkt er, hvis pakken skal nå at blive sendt samme dag samt den forventede leveringstid."
             ]
         },
         {
@@ -106,7 +126,47 @@
                 "Kan jeg vælge leveringsmetode?"
             ],
             "responses": [
-                "Vi sender alle danske ordrer med GLS. Ønsker man levering indenfor 1-2 hverdage, så kan man tilkøbe DHL Express.\n\nDu har følgende muligheder hvad angår levering:\n- GLS Pakkeshop\n- GLS Erhverv\n- GLS Privatlevering\n- DHL Express\n\nØnsker du at læse mere om levering og hvilke lande, vi sender til, så klik på knappen nedenfor:"
+                "Vi sender alle danske ordrer med GLS. Ønsker man levering indenfor 1-2 hverdage, så kan man tilkøbe DHL Express.\n\nDu har følgende muligheder hvad angår levering:\n- GLS Pakkeshop\n- GLS Erhverv\n- GLS Privatlevering\n- DHL Express"
+            ]
+        },
+        {
+            "tag": "Leveringsmuligheder - GLS Pakkeshop",
+            "patterns": [
+                "GLS Pakkeshop",
+                "Hvordan bliver det leveret med GLS Pakkeshop"
+            ],
+            "responses": [
+                "Din pakke leveres til en GLS Pakkeshop, som ligger i nærheden af din adresse. Du får valget mellem flere forskellige pakkeshops, så du kan vælge den, der passer dig bedst. Du vil få en SMS, så snart din pakke er klar til afhentning. Denne leveringsmetode er gratis."
+            ]
+        },
+        {
+            "tag": "Leveringsmuligheder - GLS Erhverv",
+            "patterns": [
+                "GLS Erhverv",
+                "Hvordan bliver det leveret med GLS Erhverv"
+            ],
+            "responses": [
+                "Din pakke sendes til en erhvervsadresse, f.eks. din arbejdsplads. For at sikre, at GLS leverer pakken, skal du angive firmanavn. Der skal være en let tilgængelig varemodtagelse samt nogen til at tage i mod pakken i normal åbningstid, ellers leveres den ikke. Denne leveringsmetode er gratis."
+            ]
+        },
+        {
+            "tag": "Leveringsmuligheder - GLS Privatlevering",
+            "patterns": [
+                "GLS Privatlevering",
+                "Hvordan bliver det leveret med GLS Privatlevering"
+            ],
+            "responses": [
+                "Din pakke leveres på din privatadresse. Såfremt du ikke er hjemme til at tage imod pakken, leveres den blot til en GLS Pakkeshop i nærheden af den givne adresse. Denne leveringsmetode koster 19 kr."
+            ]
+        },
+        {
+            "tag": "Leveringsmuligheder - DHL Express",
+            "patterns": [
+                "DHL Express",
+                "Hvordan bliver det leveret med DHL Express"
+            ],
+            "responses": [
+                "Din pakke leveres som udgangspunkt til din angivne adresse. Når pakken er på vej, får du en mail eller SMS med mulighed for at ændre leveringsmetoden. Denne leveringsmetode koster 90 kr."
             ]
         },
         {
@@ -130,7 +190,7 @@
                 "Afsendelse i weekenden"
             ],
             "responses": [
-                "Vi afsender alle ordrer til Danmark med GLS, der leverer alle hverdage samt lørdage til pakkeshops, som har lørdagsåbent. Leveringstiden er 2-5 hverdage.\n\nHvis du bestiller inden kl. 14.00 på en fredag, vil din pakke blive afsendt samme dag, og ligeledes være i transit henover weekenden.\n\nLægger du en ordre i weekenden, vil den blive afsendt om mandagen.\n\nVær opmærksom på, at du modtager en SMS, når din pakke er klar til afhentning, såfremt du har valgt levering med GLS pakkeshop. Afhentning kan foregå i pakkeshoppens åbningstid, som den givne pakkeshop selv definerer.\n\nDu kan finde information om din valgte pakkeshop her:"
+                "Vi afsender alle ordrer til Danmark med GLS, der leverer alle hverdage samt lørdage til pakkeshops, som har lørdagsåbent. Leveringstiden er 2-5 hverdage.\n\nHvis du bestiller inden kl. 14.00 på en fredag, vil din pakke blive afsendt samme dag, og ligeledes være i transit henover weekenden.\n\nLægger du en ordre i weekenden, vil den blive afsendt om mandagen.\n\nVær opmærksom på, at du modtager en SMS, når din pakke er klar til afhentning, såfremt du har valgt levering med GLS pakkeshop. Afhentning kan foregå i pakkeshoppens åbningstid, som den givne pakkeshop selv definerer."
             ]
         },
         {
@@ -142,7 +202,7 @@
                 "Er det muligt at hente en ordre i butik?"
             ],
             "responses": [
-                "På nuværende tidspunkt er det ikke muligt at afhente en online ordre i en af vores fysiske butikker.\n\nHvis du ønsker at lave en bestilling på vores hjemmeside, så vil denne, alt efter den valgte forsendelsesmetode, blive sendt til din privatadresse, firmaadresse eller til den nærmeste pakkeshop.\n\nVi kan ikke garantere, at alle produkter vil være tilgængelige i butikkerne, men søger du efter en bestemt vare, skal du være velkommen til at kigge forbi en af vores butikker eller tage kontakt til vores kundeservice.\n\nVores åbningstider for butikkerne samt kontaktinformationer for kundeservice finder du under knapperne nedenfor:"
+                "På nuværende tidspunkt er det ikke muligt at afhente en online ordre i en af vores fysiske butikker.\n\nHvis du ønsker at lave en bestilling på vores hjemmeside, så vil denne, alt efter den valgte forsendelsesmetode, blive sendt til din privatadresse, firmaadresse eller til den nærmeste pakkeshop.\n\nVi kan ikke garantere, at alle produkter vil være tilgængelige i butikkerne, men søger du efter en bestemt vare, skal du være velkommen til at kigge forbi en af vores butikker eller tage kontakt til vores kundeservice."
             ]
         },
         {
@@ -158,22 +218,10 @@
             ]
         },
         {
-            "tag": "Returnering og ombytning",
-            "patterns": [
-                "Hvordan fungerer returnering?",
-                "Kan jeg returnere mine varer?",
-                "Returnering og ombytning",
-                "Er der mulighed for ombytning?"
-            ],
-            "responses": [
-                "Find dit land på listen nedenfor og se yderligere information vedrørende returnering og ombytning:\n🇩🇰 Danmark\nVi tilbyder gratis returnering fra Danmark."
-            ]
-        },
-        {
-            "tag": "Ombytning eller returnering af gave (online)",
+            "tag": "Ombytning eller returnering af gave købt online",
             "patterns": [
                 "Bytte eller returnere gave købt online",
-                "Ombytning af gave",
+                "Ombytning af gave købt online",
                 "Returnering af online gave",
                 "Hvordan returnerer jeg en gave, der er købt online?"
             ],
@@ -182,8 +230,9 @@
             ]
         },
         {
-            "tag": "Ombytning eller returnering af gave (butik)",
+            "tag": "Ombytning eller returnering af gave købt i butik",
             "patterns": [
+                "Bytte eller returnere gave købt i butik",
                 "Ombytning af butikskøbt gave",
                 "Returnering i fysisk butik",
                 "Hvordan returnerer jeg en gave købt i butik?"
@@ -193,7 +242,7 @@
             ]
         },
         {
-            "tag": "Sådan returnerer du produkter fra to forskellige ordrer",
+            "tag": "Returnering af produkter fra forskellige ordrer",
             "patterns": [
                 "Hvordan returnerer jeg produkter fra forskellige ordrer?",
                 "Sådan returnerer du produkter fra to ordrer",
@@ -205,18 +254,6 @@
             ]
         },
         {
-            "tag": "Spor din returnering",
-            "patterns": [
-                "Hvordan sporer jeg min returnering?",
-                "Kan jeg spore min returnering?",
-                "Spor din returnering",
-                "Er der en måde at følge min returpakke på?"
-            ],
-            "responses": [
-                "Vælg det land, hvorfra du returnerede din pakke, på listen nedenfor."
-            ]
-        },
-        {
             "tag": "Refundering",
             "patterns": [
                 "Hvordan foregår en refundering?",
@@ -225,7 +262,7 @@
                 "Hvordan fungerer tilbagebetaling?"
             ],
             "responses": [
-                "Hos SHAPING NEW TOMORROW opererer vi gennem sikre betalingsmetoder, og refunderinger foregår derfor via den originale betalingsmetode.\n\nHvis du i mellemtiden har skiftet bank, skal du kontakte din gamle bank, som kan overføre beløbet til din nye bankkonto.\n\nEr der blevet anvendt et gavekort til betaling, vil beløbet blive refunderet hertil, og gavekortet kan derefter bruges på ny.\n\nHvis du ikke længere har din gavekortskode, er du velkommen til at kontakte vores kundeservice. De vil kunne hjælpe med at finde gavekortskoden og gensende den til den originale køber af gavekortet."
+                "Hos SHAPING NEW TOMORROW opererer vi gennem sikre betalingsmetoder, og refunderinger foregår derfor via den originale betalingsmetode.\n\nHvis du i mellemtiden har skiftet bank, skal du kontakte din gamle bank, som kan overføre beløbet til din nye bankkonto.\n\nEr der blevet anvendt et gavekort til betaling, vil beløbet blive refunderet hertil, og gavekortet kan derefter bruges på ny.\n\nSåfremt du ikke længere har din gavekortskode, så skal du være mere end velkommen til at kontakte vores kundeservice, som vil kunne være behjælpelige med at finde gavekortskoden og gensende denne til den originale køber af gavekortet."
             ]
         },
         {
@@ -237,7 +274,7 @@
                 "Tidsramme for refundering"
             ],
             "responses": [
-                "Vi gør vores bedste for at behandle dine returneringer hurtigst muligt.\n\nHvis du beslutter dig for at returnere produkter, kan det tage op til 14 dage, før din returnering er behandlet, og dine penge refunderet.\n\nHvis du endnu ikke har modtaget din refundering efter 14 dage, bedes du kontakte vores kundeservice.\n\nFor at løse dette på nemmeste og hurtigste vis, vil vi bede dig sende os følgende informationer:\n- Ordrenummer\n- Hvilket produkt(er) du har returneret\n- Trackingnummer\nSå snart vi har modtaget din mail, vender vi tilbage til dig hurtigst muligt.\n\nKlik på knappen nedenfor for at læse mere om refunderinger:"
+                "Vi gør vores bedste for at behandle dine returneringer hurtigst muligt.\n\nHvis du beslutter dig for at returnere produkter, kan det tage op til 14 dage, før din returnering er behandlet, og dine penge refunderet.\n\nHvis du endnu ikke har modtaget din refundering efter 14 dage, bedes du kontakte vores kundeservice.\n\nFor at løse dette på nemmeste og hurtigste vis, vil vi bede dig sende os følgende informationer:\n- Ordrenummer\n- Hvilket produkt(er) du har returneret\n- Trackingnummer\nSå snart vi har modtaget din mail, vender vi tilbage til dig hurtigst muligt."
             ]
         },
         {
@@ -321,6 +358,136 @@
             ],
             "responses": [
                 "Man kan udelukkende købe vores produkter i vores egne butikker i Danmark og Tyskland eller på vores hjemmeside http://shapingnewtomorrow.dk/\n\nTip: Der er desværre en del falske hjemmesider i omløb, der påstår at sælge Shaping New Tomorrow produkter. For at undgå ærgerlige og skuffende oplevelser kan du med fordel downloade browserudvidelsen 'Sikker shopping' til Google Chrome, som E-mærket har udviklet i samarbejde med Trygfonden.\n\n Installerer du denne app, så fortæller appen dig, hvis du er inde på en hjemmeside, der ikke er sikker og hvor du har stor sandsynlighed for enten at ende op med en kopivare eller, i værste fald, med at miste dine penge."
+            ]
+        },
+        {
+            "tag": "Betaling med Klarna",
+            "patterns": [
+                "Betaling med Klarna?",
+                "Tilbyder i Klarna service?",
+                "Har i Klarna?",
+                "Kan man betale med Klarna?"
+            ],
+            "responses": [
+                "Klarna er en betalingsudbyder, der giver dig forskellige betalingsmetoder.\nHvis du ønsker at betale med Klarna, har du følgende muligheder:\n\nKøb nu - betal senere\nBetal senere er en betalingsmetode, som giver dig mulighed for at betale 30 dage efter afsendelse af varerne. Klarna sender betalingsoplysningerne til dig i form af et indbetalingskort, så du kan betale direkte til dem. \n\nBetal i 3 dele\nBetal i 3 dele er en alternativ betalingsmetode til traditionel engangstransaktion, men uden renter eller gebyrer, hvis du betaler til tiden. Det giver dig mulighed for at opdele dine køb i 3 betalinger, som automatisk opkræves fra dit kort hver måned.\n\nDirekte betaling med kort\nMed denne betalingsmetode kan du nemt og hurtigt betale direkte med det/de kort, du har tilknyttet din Klarna-konto.\n\nDu vælger selv betalingsmetoden, når du fuldfører ordren.\n\nHvis du har spørgsmål angående din Klarna-betaling, er vi mere end glade for at hjælpe dig. Dog kan det i nogle tilfælde være nødvendigt at kontakte Klarna direkte, når man eksempelvis har med personfølsomme data at gøre. Dette kan gøres enten via appen eller på deres hjemmeside."
+            ]
+        },
+        {
+            "tag": "moms",
+            "patterns": [
+                "Kan jeg få momsen refunderet?",
+                "Kan jeg trække momsen fra?",
+                "Hvad skal jeg gøre med moms?",
+                "Kan jeg få momsrefundering?",
+                "Kan jeg undværre moms?"
+            ],
+            "responses": [
+                "Ved køb i butik, kan du få refunderet momsen, såfremt du er bosiddende udenfor EU. Få nærmere information om dette, når du handler i butikken.\n\nPå nuværende tidspunkt tilbyder vi desværre ikke momsrefundering ved køb på vores website, men vi arbejder på at gøre dette til en realitet."
+            ]
+        },
+        {
+            "tag": "Erhverv",
+            "patterns": [
+                "Sælger I til erhverv?",
+                "Sælger i til virksomheder?",
+                "Sælger i til erhvervskunder?",
+                "Hvordan fungerer erhvervssalg hos jer?"
+            ],
+            "responses": [
+                "På nuværende tidspunkt kan vi ikke tilbyde at sælge momsfrit til erhverv.\n\nMed det sagt, kan du henvende dig til Jakob på jby@shapingnewtomorrow.com og oplyse, hvad du overvejer at købe (f.eks.: '10 x Classic Pants Slim og 10 Supima t-shirts'), hvorefter han vil vende tilbage med info om et evt. videre forløb."
+            ]
+        },
+        {
+            "tag": "Vaske- og Care Guide",
+            "patterns": [
+                "Hvad er vaskeanbefalingerne",
+                "Hvad er jeres anbefalinger på vaskning og care?",
+                "Hvordan vasker man jeres produkter?",
+                "Har i en guide om vaskning og care af jeres produkter?"
+            ],
+            "responses": [
+                "For at forlænge levetiden på dine Shaping New Tomorrow-produkter og forbedre din samlede oplevelse, anbefaler vi, at du følger vores Vaske- og Care Guide.\n\nDu kan finde relevante vaske- og plejeinstruktioner for dit specifikke produkt på den dedikerede produktside på vores hjemmeside ved at klikke på 'MATERIALER OG VASKEANVISNINGER'.\n\nDesuden indeholder de fleste af vores produkter vaske- og plejeinstruktioner på vaskemærket i produktet. Dog kan nogle varer have disse instruktioner på emballagen i stedet.\n\nGenerelt anbefaler vi at vaske bukser, skjorter, striktrøjer og lignende produkter på vrangen ved temperaturer på 30ºC eller lavere. Blazere og jakker bør ikke vaskes, men sendes til rens for at bevare deres pasform.\n\nHvad angår boxershorts og strømper, kan de vaskes ved en højere temperatur på 60ºC.\n\nFor hver 5. til 10. vask anbefaler vi at bruge klar eddike, da det blødgør stoffet samt fjerner kalk og sæberester fra produktet. Hæld 0,5 deciliter i skyllemiddelsrummet i din vaskemaskine.\n\nVi anbefaler ikke at bruge skyllemiddel, da det indeholder vaskeaktive stoffer, der har en negativ indvirkning på produkterne såvel som miljøet. Brug af blegemiddel og vaskemidler med blegemiddel anbefales heller ikke.\n\nHvis du er i tvivl om, hvordan du passer på dit produkt, så tøv ikke med at kontakte vores kundeservice. De vil være mere end glade for at hjælpe dig!"
+            ]
+        },
+        {
+            "tag": "reklamation",
+            "patterns": [
+                "Hvordan reklamerer jeg?",
+                "Hvordan virker reklamation?",
+                "Reklamation hos jer?",
+                "Der er fejl i mit produkt?",
+                "Mit produkt er defekt"
+            ],
+            "responses": [
+                "Hvis du oplever en fejl eller defekt på dit produkt, har du mulighed for at indsende en reklamation.\n\nFor at indsende en reklamation, skal du besøge vores reklamationsportal og følge nogle simple trin for at give os de nødvendige oplysninger. Ved at gøre dette kan vi tilbyde dig hurtig og bekvem hjælp til at løse problemet. \n\nKlik på knappen nedenfor for at gå til vores reklamationsportal:"
+            ]
+        },
+        {
+            "tag": "baglommer",
+            "patterns": [
+                "Hvordan åbner jeg mine baglommer?",
+                "Baglommen er ikke åben",
+                "Hvorfor er min baglomme lukket?"
+            ],
+            "responses": [
+                "For at vedligeholde buksernes holdbarhed og integritet anbefaler vi, at man ikke åbner baglommerne. Baglommerne i dine Classic Pants kan dog åbnes, såfremt du ønsker det. \n\nInden du vælger at åbne dem, så vær opmærksom på lommernes dybde ved at kigge indvendigt i bukserne. Af æstetiske årsager er baglommerne ikke betydeligt store. Derfor er det en god idé at undersøge, hvorvidt det du ønsker at opbevare i lommen, rent faktisk kan være deri.\n\nVi vil hjertens gerne hjælpe dig med at åbne dine bukser og vil derfor anbefale dig at kigge forbi en af vores fysiske butikker, hvor vores professionelle personale vil kunne gøre det for dig.\n\nBemærk venligst:\nÅbning af baglommerne sker på eget ansvar. Når dine lommer er åbnede, kan bukserne ikke ombyttes eller refunderes."
+            ]
+        },
+        {
+            "tag": "størrelsesguides",
+            "patterns": [
+                "Hvordan ved jeg at størrelsen passer på mig?",
+                "Hvilken størrelse bruger jeg?",
+                "Hvordan tjekker jeg størrelse?"
+            ],
+            "responses": [
+                "Hos Shaping New Tomorrow tilbyder vi forskellige pasformer og størrelser.\nFor at hjælpe dig bedst muligt med at vælge den rigtige størrelse, tilbyder vi en række størrelsesguides.\n\nFit\nFor nogle produkter tilbyder vi Slim og Regular Fit. For produkter, hvor begge pasformer er tilgængelige, finder du en guide med en beskrivelse af forskellene og billeder, så du kan sammenligne dem.\n\nInteraktiv størrelsesguide \nVores interaktive størrelsesguide bruger rigtige data og maskinlæring til at hjælpe dig med at finde den rigtige størrelse. Følg trinene og vi vil ud fra det angivne komme med vores bedste anbefalinger.\n\nStørrelse & Fit\nEn størrelsesguide med mål er tilgængelig for alle vores produkter. Du kan bruge denne guide til at finde den rigtige størrelse til dig og sammenligne målene med det tøj, du normalt bruger."
+            ]
+        },
+        {
+            "tag": "store lår",
+            "patterns": [
+                "Jeg har store lår, kan jeg passe jeres bukser?",
+                "Jeg har store lægge, kan jeg passe jeres bukser?",
+                "Hvordan passer jeres bukser til mine lår?",
+                "Hvordan passer jeres bukser til mine lægge?"
+            ],
+            "responses": [
+                "Hvis du har store lår eller lægge plejer det, som udgangspunkt, ikke at være noget problem. Vi tilbyder nemlig både Slim og Regular fit.\n\nDu kan altid prøve vores bukser på i nogle timer og derefter bestemme dig for, om du synes, at de har givet sig tilstrækkeligt og sidder, som du ønsker det."
+            ]
+        },
+        {
+            "tag": "regular og slim fit",
+            "patterns": [
+                "Hvad er forskellen på regular og slim fit?",
+                "Hvordan kender jeg forskellen på regular og slim fit?",
+                "Hvordan kan jeg se forskellen på regular og slim fit?"
+            ],
+            "responses": [
+                "Måden hvorpå du kan se, om du har modtaget et par bukser i Regular eller Slim, er ved at kigge på labelen i bukserne.\n\nHvis label er hvid er det Slim fit og hvis label er mørkegrå og markeret 'Regular' er det Regular fit."
+            ]
+        },
+        {
+            "tag": "skrædderpriser",
+            "patterns": [
+                "Har i Skræddersyer?",
+                "Kan man få skræddersyet?",
+                "Hvad er prisen for skræddersyning?",
+                "Hvad er skrædderpriser på jeres produkter?"
+            ],
+            "responses": [
+                "Til alle vores butikker har vi tilknyttet en skrædder, som gør det muligt for dig at få lavet ændringer på dine SNT produkter. Dette er muligt at benytte sig af både ved køb i vores fysiske butikker, men også ved online køb, hvis du efterfølgende møder op i butikken med produktet\n\nVores skræddere tilbyder følgende ydelser:  \n\nBukser:\nOplægning: Fra 70,- DKK\nLynlås, udskiftning: Fra 100,- DKK\nBukseknap: Fra 20,- DKK\n\nBemærk, at ovenstående priser er vejledende.\n\nSkjorter:\nOplægning: Fra 100,- DKK\n\nBemærk, at ovenstående pris er vejledende.\n\nBlazer:\nOplægning: Fra 160,- DKK\nViddejustering: Fra 170,- DKK\n\nBemærk, at ovenstående priser er vejledende.\n\nPriserne for de forskellige skrædderydelser varierer fra butik til butik. Ønsker du at høre nærmere herom, skal du være velkommen til at henvende dig i vores butikker eller tage kontakt til vores kundeservice"
+            ]
+        },
+        {
+            "tag": "Lynlås",
+            "patterns": [
+                "Min lynlås går hele tiden ned, hvad gør jeg?",
+                "Min lynlås er gået i stykker?",
+                "Lynlåsen kan ikke lynes op?"
+            ],
+            "responses": [
+                "Alle vores bukser er udstyret med en automatisk lukkemekanisme i lynlåsen. Mekanismen låser, når snippen peger nedad.\n\nHvis dine bukser er for små, kan det også påvirke lynlåsens evne til at forblive oppe/låst.\n\nHvis ovenstående ikke afhjælper dit problem, så send os venligst nogle billeder pr. mail, så skal vi med glæde hjælpe dig med problemet."
             ]
         }
     ]
