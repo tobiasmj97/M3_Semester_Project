@@ -157,7 +157,7 @@
             "responses": [
                 "Køb af online gavekort\nNår du modtager et online gavekort, modtager du det via mail. Gavekortet bliver ikke sendt fysisk.\n\nDesuden har du mulighed for at skrive en lille hilsen til modtageren. Denne vil blive vist i mailen med gavekortet, som kan printes ud og/eller videresendes pr. mail til modtageren.\n\nKøb af gavekort i butik\nNår du køber et gavekort i en af vores butikker, modtager du en kvittering med en gavekortskode og en online-version via mail.\n\nIndløsning af online gavekort\nAlle gavekort kan indløses på vores website. Hvis du vil bruge dit gavekort online, skal du blot indtaste gavekortkoden i feltet for gavekort/rabatkode ved kassen. \nHvis du ikke bruger det fulde beløb, forbliver gavekortet tilgængeligt, indtil du har brugt det fulde beløb. \nHvis du ønsker at returnere noget fra en ordre, der er betalt med et gavekort, refunderes pengene til det samme gavekort. Gavekortet kan derefter bruges igen.\nIndløsning af et gavekort i fysiske butikker\nAlle gavekort kan indløses i vores fysiske butikker.\n\nHvis du ikke bruger det fulde beløb på gavekortet, vil der blive udstedt et nyt gavekort."
             ]
-          }
+          },
           {
             "tag": "Betalingsmuligheder",
             "patterns": [
