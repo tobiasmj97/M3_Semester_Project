@@ -1,0 +1,339 @@
+intents": [
+        {
+            "tag": "hilsen",
+            "patterns": [
+                "Hejsa",
+                "Godmorgen",
+                "Hej der",
+                "Goddag til dig"
+            ],
+            "responses": [
+                "Hej der 😊",
+                "God dag, hvordan kan jeg assistere?",
+                "Hejsa, hvad kan jeg gøre for dig?"
+            ]
+        },
+        {
+            "tag": "svar",
+            "patterns": [
+                "Alt vel?"
+            ],
+            "responses": [
+                "Alt er fint her, og selv?"
+            ]
+        },
+        {
+            "tag": "farvel",
+            "patterns": [
+                "Vi ses",
+                "Ses snart",
+                "Ha' det godt"
+            ],
+            "responses": [
+                "Vi ses snart, tak fordi du kiggede forbi",
+                "Ha' en fantastisk dag",
+                "Farvel, og på gensyn snart."
+            ]
+        },
+        {
+            "tag": "tak",
+            "patterns": [
+                "Mange tak",
+                "Tusind tak",
+                "Tak for din hjælp",
+                "Takker"
+            ],
+            "responses": [
+                "Det var så lidt!",
+                "Står altid til tjeneste!",
+                "Det var en glæde at hjælpe"
+            ]
+        },
+        {
+            "tag": "Bestilling i butik",
+            "patterns": [
+                "Jeg ønsker at lave en bestilling til levering hjem",
+                "Er det muligt at bestille til hjemmelevering?",
+                "Guide mig til at bestille varer for levering?",
+                "Vil gerne vide, hvordan man bestiller fra butikken",
+                "Proces for bestilling til hjemmelevering"
+            ],
+            "responses": [
+                "Ved bestilling til hjemmelevering i butikken, bemærk venligst følgende: Efter at have gennemført bestillingen i butikken, får du både en kvittering og en kopi via e-mail. Din ordre bliver derefter pakket på lageret, og efter afsendelse vil du modtage en track and trace-link via e-mail fra GLS."
+            ]
+        },
+        {
+            "tag": "Leveringstid bestilling butik",
+            "patterns": [
+                "Hvad er leveringstiden for køb i butikken?"
+            ],
+            "responses": [
+                "Generelt bør du forvente at modtage din bestilling inden for 2-5 hverdage til den oplyste adresse. Du vil få muligheden for at ændre leveringen til en pakkeshop gennem den e-mail/SMS, som GLS sender."
+            ]
+        },
+        {
+            "tag": "Returnering af bestilling fra butik",
+            "patterns": [
+                "Returnering fra butik",
+                "Returner ordre købt i butik",
+                "Guide til at returnere en butiksordre"
+            ],
+            "responses": [
+                "Ved køb i vores fysiske butikker med hjemmelevering, kan du returnere både i butikken og online. Brug ordrenummeret (f.eks. 184095.0) fra følgesedlen og din e-mailadresse på returportalen. Når du har registreret din returnering, får du en returlabel til brug. For ombytning skal du lave en ny bestilling. Refusion sker, når vi har modtaget og behandlet din returnering."
+            ]
+        },
+        {
+            "tag": "Ordrebekræftelse ikke modtaget",
+            "patterns": [
+                "Mangler min ordrebekræftelse",
+                "Har ikke fået ordrebekræftelsen",
+                "Ingen ordrebekræftelse efter bestilling",
+                "Venter stadig på ordrebekræftelsen"
+            ],
+            "responses": [
+                "Du bør modtage en e-mail med ordrebekræftelsen kort efter bestilling. Hvis den mangler, kan det skyldes: fejl i ordreprocessen, stavefejl i e-mailadressen, e-mail fanget i spam, eller teknisk forsinkelse (især under Black Week og jul). Kontakt vores kundeservice, hvis du stadig mangler din ordrebekræftelse."
+            ]
+        },
+        {
+            "tag": "Annullering af ordre",
+            "patterns": [
+                "Jeg ønsker at afbestille min ordre",
+                "Guide til annullering af ordre",
+                "Proces for at annullere ordre",
+                "Er det muligt at afbestille en ordre?"
+            ],
+            "responses": [
+                "For annullering, kontakt straks kundeservice. Mærk e-mails med 'Annullering af DK123456' for hurtig behandling. Vi pakker ordrer hurtigt, og hvis ordren er pakket, kan den ikke annulleres. I dette tilfælde, benyt vores 100 dages returret. For mere info om returnering og ombytning, se her:"
+            ]
+        },
+        {
+            "tag": "Ændring af ordre",
+            "patterns": [
+                "Jeg ønsker at rette i min ordre",
+                "Er det muligt at ændre i min ordre?",
+                "Proces for ændring af ordre",
+                "Hvordan retter jeg i min ordre?"
+            ],
+            "responses": [
+                "Kontakt kundeservice hurtigst muligt for at ændre ordre. Vi kan ikke ændre i en ordre, men kan annullere den, hvis den ikke er pakket. Kundeservice er tilgængelig hverdage 10:00-17:00 og søndage 10:00-16:00. Hvis pakken er klargjort, kan ordren ikke annulleres, men du har 100 dages returret og gratis ombytning. Se mere om returnering og ombytning her:"
+            ]
+        }
+    ]
+}
+{
+    "intents": [
+        {
+            "tag": "Defekt produkt modtaget",
+            "patterns": [
+                "Jeg har fået et ødelagt produkt",
+                "Hvordan håndterer jeg et beskadiget produkt?",
+                "Modtaget produkt med fejl",
+                "Produktet jeg modtog er skadet"
+            ],
+            "responses": [
+                "Vi sikrer os at alle produkter er af højeste kvalitet og gennemgår grundig kvalitetskontrol. Det sker dog, at fejl kan opstå.\n\nHvis du står med et defekt produkt, kontakt da venligst vores kundeservice omgående.\n\nFor hurtigst mulig håndtering, send os venligst:\n\n- Dit ordrenummer\n- Navn på det defekte produkt\n- Et fotografi af produktet\n\nVi vil reagere hurtigt på din henvendelse efter modtagelse af din e-mail."
+            ]
+        },
+        {
+            "tag": "Forkert produkt modtaget",
+            "patterns": [
+                "Jeg har fået leveret et forkert produkt",
+                "Fejlagtigt leveret produkt",
+                "Hvordan håndterer jeg modtagelse af forkert produkt?",
+                "Leveret forkert produkt"
+            ],
+            "responses": [
+                "Vi bestræber os på at sende korrekte produkter, men fejl kan ske. Har du modtaget et forkert produkt, bedes du kontakte vores kundeservice.\n\nFor at løse situationen, bedes du sende os:\n\n- Ordrenummer\n- Navn på det produkt du skulle have modtaget\n- Navn på det produkt du modtog ved fejl\n- Billede af det modtagne produkt og mærke\n\nVi vil svare dig så snart vi har set din e-mail."
+            ]
+        },
+        {
+            "tag": "Manglende produkter i min ordre",
+            "patterns": [
+                "Der mangler et produkt i min ordre",
+                "Hvordan håndterer jeg manglende produkter i min ordre?",
+                "Mangler et produkt i min ordre",
+                "Et af produkterne i min ordre blev ikke leveret"
+            ],
+            "responses": [
+                "Vi arbejder hårdt for at sikre alle produkter bliver sendt korrekt.\n\nSkulle der mangle et produkt i din ordre, kontakt da vores kundeservice.\n\nFor hurtigst mulig løsning, send os venligst:\n\n- Ordrenummer\n- Navn på det manglende produkt\n- Et billede af den kasse, ordren blev sendt i\n\nVi vil reagere hurtigt på din henvendelse."
+            ]
+        },
+        {
+            "tag": "Leveringsinformationer",
+            "patterns": [
+                "Jeg ønsker oplysninger omkring levering",
+                "Hvor lang tid tager leveringen?",
+                "Information om levering",
+                "Kan jeg få detaljeret info om levering?"
+            ],
+            "responses": [
+                "Her er en oversigt over de lande vi leverer til, inklusiv anvendte fragtfirmaer, sidste bestillingstidspunkt for afsendelse samme dag, samt forventet leveringstid."
+            ]
+        },
+        {
+            "tag": "Leveringsmuligheder",
+            "patterns": [
+                "Muligheder for levering af mine varer",
+                "Hvilke forsendelsesmuligheder tilbyder I?",
+                "Oversigt over leveringsmuligheder",
+                "Valg af forsendelsesmetode"
+            ],
+            "responses": [
+                "Alle ordrer i Danmark sendes med GLS. Ønsker du hurtig levering inden for 1-2 hverdage, kan DHL Express tilvælges.\n\nLeveringsmuligheder inkluderer:\n- GLS Pakkeshop\n- GLS Erhverv\n- GLS Privatlevering\n- DHL Express"
+            ]
+        },
+        {
+            "tag": "Leveringsmuligheder - GLS Pakkeshop",
+            "patterns": [
+                "Levering via GLS Pakkeshop",
+                "Detaljer om levering med GLS Pakkeshop"
+            ],
+            "responses": [
+                "Pakken leveres til en GLS Pakkeshop tæt på din adresse. Du vælger selv den mest passende pakkeshop. Når pakken er klar, modtager du en SMS. Denne forsendelsesmetode er uden omkostninger."
+            ]
+        },
+        {
+            "tag": "Leveringsmuligheder - GLS Erhverv",
+            "patterns": [
+                "Levering til erhverv via GLS",
+                "Detaljer om GLS Erhvervslevering"
+            ],
+            "responses": [
+                "Pakken sendes til en erhvervsadresse, såsom din arbejdsplads. Angiv firmanavn for sikker levering. Varemodtagelse skal være nemt tilgængelig, og nogen skal være til stede i åbningstiden. Denne leveringsmetode er gratis."
+            ]
+        },
+        {
+            "tag": "Leveringsmuligheder - GLS Privatlevering",
+            "patterns": [
+                "Privat levering via GLS",
+                "Detaljer om GLS Privatlevering"
+            ],
+            "responses": [
+                "Pakken leveres direkte til din privatadresse. Hvis du ikke er hjemme, leveres den til en nærliggende GLS Pakkeshop. Denne forsendelsesmetode koster 19 kr."
+            ]
+        },
+        {
+            "tag": "Leveringsmuligheder - DHL Express",
+            "patterns": [
+                "Levering med DHL Express",
+                "Detaljer om levering via DHL Express"
+            ],
+            "responses": [
+                "Pakken leveres primært til den angivne adresse. Under forsendelse får du mulighed for at ændre leveringsmetode via mail eller SMS. Denne forsendelsesmetode koster 90 kr."
+            ]
+        },
+        {
+            "tag": "Spor min ordre",
+            "patterns": [
+                "Hvordan kan jeg følge min ordre?",
+                "Få sporingsoplysninger til min ordre",
+                "Sporing af min ordre",
+                "Opfølgning på min ordre"
+            ],
+            "responses": [
+                "Efter ordreafgivelse modtager du en ordrebekræftelse via mail, som indeholder alle detaljer om dit køb.\n\nNår din ordre er pakket og forladt vores lager, modtager du en forsendelsesbekræftelse med relevante leveringsoplysninger og sporingsinformation."
+            ]
+        },
+        {
+            "tag": "Levering i weekenden",
+            "patterns": [
+                "Er weekendlevering mulig?",
+                "Hvordan foregår levering i weekenden?",
+                "Weekendlevering",
+                "Afsendelse i løbet af weekenden"
+            ],
+            "responses": [
+                "Vi sender med GLS, der leverer hverdage og lørdage til visse pakkeshops. Leveringstiden er 2-5 hverdage.\n\nBestiller du før kl. 14.00 på en fredag, afsendes din pakke samme dag. Weekender er med i transitperioden.\n\nOrdrer lagt i weekenden sendes mandag.\n\nVed valg af GLS pakkeshop, modtager du en SMS ved klar afhentning. Afhentning sker i pakkeshoppens åbningstider."
+            ]
+        },
+        {
+            "tag": "Afhentning i butik",
+            "patterns": [
+                "Er afhentning af ordre i butik muligt?",
+                "Guide til afhentning i butik",
+                "Butiksafhentning",
+                "Kan jeg hente min online ordre i butikken?"
+            ],
+            "responses": [
+                "Afhentning af online ordre i fysiske butikker er i øjeblikket ikke muligt.\n\nVed online bestilling, afhænger levering af valgt forsendelsesmetode, som kan være til privatadresse, firmaadresse eller nærmeste pakkeshop.\n\nIkke alle varer kan være tilgængelige i butikker. Du er velkommen til at besøge vores butikker eller kontakte kundeservice for specifikke varer."
+            ]
+        }
+    ]
+}
+{
+    "intents": [
+        {
+            "tag": "Told- og importgebyr",
+            "patterns": [
+                "Er der ekstraomkostninger for told?",
+                "Skal jeg betale importafgifter?",
+                "Hvordan håndterer I told?",
+                "Omkostninger ved toldbehandling?"
+            ],
+            "responses": [
+                "Når du køber hos Shaping New Tomorrow, er der ingen skjulte omkostninger. Vi tilbyder gratis standardlevering og returnering, og vi dækker eventuelle told- og importgebyrer.\n\nSkulle du modtage en opkrævning i forbindelse med told, bedes du kontakte vores kundeservice for assistance og videre håndtering af sagen."
+            ]
+        },
+        {
+            "tag": "Ombytning eller returnering af gave købt online",
+            "patterns": [
+                "Returnering eller ombytning af onlinekøbt gave",
+                "Hvordan bytter jeg en onlinekøbt gave?",
+                "Procedure for returnering af gave købt online",
+                "Retningslinjer for at returnere en onlinekøbt gave"
+            ],
+            "responses": [
+                "Hvis du vil ombytte eller returnere en modtaget gave, er der flere muligheder.\n\nSpørg først gavegiveren, om gaven er købt online eller i en butik. For ombytning eller returnering er ordrenummeret eller gavekvitteringen nødvendig.\n\nFor gaver købt online, brug ordrenummeret og postnummeret til returnering via vores returportal. Vælg 'Send den nærmeste størrelse' eller 'Byt for noget lignende' for direkte ombytning. Ny bestilling er nødvendig for model- eller pasformsændringer.\n\nFor gaver købt online, kan de også ombyttes eller returneres i butik med ordrenummeret. Refundering sker til gavegivers originale betalingsmetode. Bemærk, refunderinger kan kun ske via den originale betalingsmetode."
+            ]
+        },
+        {
+            "tag": "Ombytning eller returnering af gave købt i butik",
+            "patterns": [
+                "Retningslinjer for at bytte eller returnere en butikskøbt gave",
+                "Returnering af gave købt i fysisk butik",
+                "Ombytning af gave købt i butikken",
+                "Hvordan håndterer jeg en butikskøbt gave?"
+            ],
+            "responses": [
+                "For ombytning eller returnering af en gave, undersøg først om gaven er købt i butik eller online.\n\nHvis gaven er købt i butik, kan den kun ombyttes eller returneres der. Medbring gavekvittering for ombytning, og original kvittering for returnering.\n\nYderligere oplysninger om returnering og ombytning er tilgængelige ved at følge nedenstående link."
+            ]
+        },
+        {
+            "tag": "Returnering af produkter fra forskellige ordrer",
+            "patterns": [
+                "Guide til returnering af varer fra flere ordrer",
+                "Hvordan returnerer jeg varer fra forskellige køb?",
+                "Returneringsproces for flere ordrer",
+                "Håndtering af returnering fra separate ordrer"
+            ],
+            "responses": [
+                "For at optimere behandlingstiden af din returnering, bedes du returnere varer fra forskellige ordrer separat. Kombinerer du varer fra flere returneringer i én pakke, kan det forlænge behandlingstiden.\n\nSeparate returneringer hjælper os med at hjælpe dig mere effektivt."
+            ]
+        },
+        {
+            "tag": "Refundering",
+            "patterns": [
+                "Hvordan administreres refunderinger?",
+                "Er det muligt at få pengene tilbage?",
+                "Proces for refundering",
+                "Tilbagebetaling af køb",
+                "Hvordan fungerer refunderinger?"
+            ],
+            "responses": [
+                "SHAPING NEW TOMORROW bruger sikre betalingsmetoder, og refunderinger sker via den oprindelige betalingsmåde.\n\nHvis du har skiftet bank, kontakt da din tidligere bank for overførsel til din nye konto.\n\nVed betaling med gavekort refunderes beløbet til kortet. Mangler du gavekortkoden, kan vores kundeservice assistere med at finde og sende den til køberen af gavekortet."
+            ]
+        },
+        {
+            "tag": "Hvornår modtager jeg min refundering?",
+            "patterns": [
+                "Tidsramme for refunderingsprocessen",
+                "Hvornår refunderes mine penge?",
+                "Forventet tid for modtagelse af refundering",
+                "Hvornår kan jeg forvente min tilbagebetaling?"
+            ],
+            "responses": [
+                "Vi stræber efter at behandle dine returneringer hurtigt.\n\nDet kan tage op til 14 dage fra vi modtager din returnering, til dine penge refunderes.\n\nHar du ikke modtaget din refundering efter 14 dage, kontakt venligst vores kundeservice.\n\nFor at hjælpe os med hurtig løsning, send os:\n- Ordrenummer\n- Navn på de returnerede produkter\n- Trackingnummer\nVi vil reagere hurtigt på din henvendelse."
+            ]
+        }
+    ]
+}
