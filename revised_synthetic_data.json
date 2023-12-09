@@ -1,4 +1,5 @@
-intents": [
+{
+    "intents": [
         {
             "tag": "hilsen",
             "patterns": [
@@ -8,7 +9,7 @@ intents": [
                 "Goddag til dig"
             ],
             "responses": [
-                "Hej der 😊",
+                "Hej der",
                 "God dag, hvordan kan jeg assistere?",
                 "Hejsa, hvad kan jeg gøre for dig?"
             ]
@@ -117,11 +118,7 @@ intents": [
             "responses": [
                 "Kontakt kundeservice hurtigst muligt for at ændre ordre. Vi kan ikke ændre i en ordre, men kan annullere den, hvis den ikke er pakket. Kundeservice er tilgængelig hverdage 10:00-17:00 og søndage 10:00-16:00. Hvis pakken er klargjort, kan ordren ikke annulleres, men du har 100 dages returret og gratis ombytning. Se mere om returnering og ombytning her:"
             ]
-        }
-    ]
-}
-{
-    "intents": [
+        },
         {
             "tag": "Defekt produkt modtaget",
             "patterns": [
@@ -257,11 +254,7 @@ intents": [
             "responses": [
                 "Afhentning af online ordre i fysiske butikker er i øjeblikket ikke muligt.\n\nVed online bestilling, afhænger levering af valgt forsendelsesmetode, som kan være til privatadresse, firmaadresse eller nærmeste pakkeshop.\n\nIkke alle varer kan være tilgængelige i butikker. Du er velkommen til at besøge vores butikker eller kontakte kundeservice for specifikke varer."
             ]
-        }
-    ]
-}
-{
-    "intents": [
+        },
         {
             "tag": "Told- og importgebyr",
             "patterns": [
